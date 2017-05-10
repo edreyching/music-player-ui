@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Music Player</title>
+	<link href="../assets/bootstrap-3/css/bootstrap.min.css" rel="stylesheet">
+	<link href="../assets/bootstrap-3/css/dev.css" rel="stylesheet">
+	<link rel="stylesheet" href="../assets/fontawesome/css/font-awesome.min.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  	<script src="../assets/bootstrap-3/js/bootstrap.min.js"></script>
+</head>
+<body>
+	  <h1 class="menu-btn hidden-md hidden-lg hidden-xl" data-toggle="collapse" data-target="#demo"><span class="fa fa-bars"></span> &nbsp; <strong>Tune</strong> </h1>
+	  <div id="demo" class="collapse">
+    		<ul class="list-group">
+    			<li class="list-group-item"><a href=""><h1>Featured</h1></a></li>
+    			<li class="list-group-item"><a href=""><h1>Genre</h1></a></li>
+    			<li class="list-group-item"><a href=""><h1>New Release</h1></a></li>
+    			<li class="list-group-item"><a href=""><h1>Discover</h1></a></li>
+    			<li class="list-group-item"><a href=""><h1 class="user"><strong>Juan Dela Cruz</strong></h1></a></li>
+  			</ul>
+  		</div>
+	<div class="row">
+		<div class="col-md-12 col-sm-12 top-nav hidden-xs hidden-sm">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4">
+						<img src="../assets/playerlogo.png" class="logo"><span class="logo-desc"> Tune</span>
+					</div>
+					<div class="col-md-6 col-md-offset-2">
+						<ul class="list-inline">
+  							<li class="list-inline-item"><h4 class="menu"><a href="featured.html"> <span class="underline"> Featured </span></a></h4></li>
+  							<li class="list-inline-item"><h4 class="menu"><a href=""> Genre</a></h4></li>
+  							<li class="list-inline-item"><h4 class="menu"><a href=""> New release</a></h4></li>
+  							<li class="list-inline-item"><h4 class="menu"><a href=""> Discover</a></h4></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-3 col-sm-12">
+			<div class="row">
+				<input type="text" class="search hidden-xs hidden-sm" name="" placeholder="Search">
+			</div>
+			<img src="../assets/hilsongcover.jpg" class="cover image-responsive">
+			<h4 class="playlist-name text-center">Hillsong United</h4>
+			<h6 class="by text-center">by Tune</h6>
+			<h6 class="by text-center">50 songs</h6>
+			<button type="button" class="btn play"><strong><span class="fa fa-play"></span> Play</strong></button>
+			<div class="row">
+				<div class="prof-det hidden-xs hidden-sm">
+					<a href="">
+						<img src="../assets/user.png" class="img-circle profile"><span class="username">Juan Dela Cruz</span>
+					</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-6 col-sm-12 songs"><!-- add class "songs" for the overflow content -->
+			
+				<div class="row songs-list playing">
+					<div class="col-md-1 col-sm-2 col-xs-2 text-center"><h4> 1</h4></div>
+					<div class="col-md-9 col-sm-7 col-xs-7"><h4> Athem</h4><span>Composer - Album name</span></div>
+					<div class="col-md-2 col-sm-3 col-xs-3 text-center"><h4> 3:40</h4></div>		
+				</div>
+			
+			<a href="">
+				<div class="row songs-list">
+					<div class="col-md-1 col-sm-2 col-xs-2 text-center"><h4> 2</h4></div>
+					<div class="col-md-9 col-sm-7 col-sm-7"><h4> What a beautiful name</h4><span>Composer - Album name</span></div>
+					<div class="col-md-2 col-sm-3 col-xs-3 text-center"><h4> 4:10</h4></div>
+				</div>
+			</a>
+			<a href="">
+				<div class="row songs-list">
+					<div class="col-md-1 col-sm-2 col-xs-2 text-center"><h4> 3</h4></div>
+					<div class="col-md-9 col-sm-7 col-xs-7"><h4> No other name</h4><span>Composer - Album name</span></div>
+					<div class="col-md-2 col-sm-3 col-xs-3 text-center"><h4> 3:00</h4></div>
+				</div>
+			</a>
+			<a href="">
+				<div class="row songs-list">
+					<div class="col-md-1 col-sm-2 col-xs-2 text-center"><h4> 4</h4></div>
+					<div class="col-md-9 col-sm-7 col-xs-7 "><h4> This is I beleve</h4><span>Composer - Album name</span></div>
+					<div class="col-md-2 col-sm-3 col-xs-3 text-center"><h4> 4:27</h4></div>
+				</div>
+			</a>
+			<a href="">
+				<div class="row songs-list">
+					<div class="col-md-1 col-sm-2 col-xs-2 text-center"><h4> 5</h4></div>
+					<div class="col-md-9 col-sm-7 col-xs-7"><h4> Jesus I need is you</h4><span>Composer - Album name</span></div>
+					<div class="col-md-2 col-sm-3 col-xs-3 text-center"><h4> 4:00</h4></div>
+				</div>
+			</a>
+			<a href="">
+				<div class="row songs-list">
+					<div class="col-md-1 col-sm-2 col-xs-2 text-center"><h4> 6</h4></div>
+					<div class="col-md-9 col-sm-7 col-xs-7"><h4> Open Heaven</h4><span>Composer - Album name</span></div>
+					<div class="col-md-2 col-sm-3 col-xs-3 text-center"><h4> 3:50</h4></div>
+				</div>
+			</a>
+			<a href="">
+				<div class="row songs-list">
+					<div class="col-md-1 col-sm-2 col-xs-2 text-center"><h4> 7</h4></div>
+					<div class="col-md-9 col-sm-7 col-xs-7"><h4> Christ is enough</h4><span>Composer - Album name</span></div>
+					<div class="col-md-2 col-sm-3 col-xs-3 text-center"><h4> 3:30</h4></div>
+				</div>
+			</a>
+			
+
+			
+		</div>
+		<div class="col-md-3 col-sm-12 col-xs-12 player">
+			<img src="../assets/athem.jpg" class="img-responsive cover hidden-xs hidden-sm">
+			<h4 class="playlist-name text-center col-sm-4 col-xs-4">Athem <br><span class="by text-center">Planet Shakers</span></h4>
+			
+			<div class="col-md-12">
+				<input type="range" value="50" min="0" max="100" class="form-control hidden-xs hidden-sm" name="">
+			</div>
+			<div class="controls col-md-12">
+				<div class="row">
+					<div class="col-md-3 col-sm-3 hidden-xs hidden-sm">
+						<h6 class="text-center"><span class="fa fa-refresh"></span></h6>
+					</div>
+
+					<div class="col-md-2 col-sm-2 col-xs-2">
+						<a href=""><h6 class="text-center"><span class="fa fa-backward"></span></h6></a>
+					</div>
+					<div class="col-md-2 col-sm-2 col-xs-2">
+						<a href="" id="play" class=""><h6 class="text-center"><span class="fa fa-play"></span></h6></a>
+					</div>
+					<div class="col-md-2 col-sm-2 col-xs-2">
+						<a href=""><h6 class="text-center"><span class="fa fa-forward"></span></h6></a>
+					</div>
+					<div class="col-md-2 hidden-xs hidden-sm">
+						<h6 class="text-center"><span class="fa fa-random"></span></h6>
+					</div>
+				</div>
+				
+				
+			</div>
+		</div>
+	</div>
+	<!-- <div class="col-sm-2 sidenav side hidden-xs">
+      <h4 class="text-center">Music Player</h4>
+    </div> -->
+
+</body>
+</html>
